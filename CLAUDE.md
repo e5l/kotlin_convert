@@ -14,16 +14,16 @@ The translator is designed to be used in a multi-step pipeline:
 
 ## Build System
 
-This project uses **Bazel** with Kotlin rules.
+This project uses **Gradle** with Kotlin.
 
 **Building:**
 ```bash
-bazel build //convert
+./gradlew build
 ```
 
 **Running tests:**
 ```bash
-bazel test //convert
+./gradlew test
 ```
 
 **Target JVM version:** Java 11

@@ -9,6 +9,24 @@ in conjunction with other steps/tools as follows:
 3. run an auto-formatter
 4. apply improvements to make the code more typical (e.g., use `data` classes)
 
+## Building
+
+This project uses Gradle with Kotlin.
+
+**Building:**
+```bash
+./gradlew build
+```
+
+**Running tests:**
+```bash
+./gradlew test
+```
+
+**Target JVM version:** Java 11
+
+## Contributing
+
 We don't currently provide any support for this repository, but you are welcome
 to [contribute](docs/contributing.md).
 
