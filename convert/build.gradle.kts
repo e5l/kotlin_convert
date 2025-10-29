@@ -19,11 +19,17 @@ plugins {
 dependencies {
     implementation("com.github.ben-manes.caffeine:caffeine:3.1.8")
     implementation("com.jetbrains.intellij.platform:uast:241.15989.155")
-    implementation("org.jetbrains.kotlin:kotlin-compiler:2.0.21")
+    implementation("org.jetbrains.kotlin:kotlin-compiler:1.9.22")
 
     // Test dependencies
     testImplementation(kotlin("test"))
     testImplementation("org.junit.jupiter:junit-jupiter:5.10.0")
+
+    // IntelliJ test infrastructure for integration tests
+    testImplementation("com.jetbrains.intellij.platform:core:241.15989.155")
+    testImplementation("com.jetbrains.intellij.platform:core-impl:241.15989.155")
+    testImplementation("com.jetbrains.intellij.java:java-psi:241.15989.155")
+    testImplementation("com.jetbrains.intellij.java:java-psi-impl:241.15989.155")
 }
 
 java {
