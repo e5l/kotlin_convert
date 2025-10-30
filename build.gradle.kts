@@ -13,7 +13,7 @@
 // limitations under the License.
 
 plugins {
-    kotlin("jvm") version "1.9.22" apply false
+    kotlin("jvm") version "2.0.21" apply false
 }
 
 allprojects {
@@ -27,6 +27,9 @@ allprojects {
         }
         maven {
             url = uri("https://cache-redirector.jetbrains.com/intellij-dependencies/")
+        }
+        maven {
+            url = uri("https://plugins.gradle.org/m2/")
         }
     }
 }

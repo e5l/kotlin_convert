@@ -19,7 +19,7 @@ plugins {
 dependencies {
     implementation("com.github.ben-manes.caffeine:caffeine:3.1.8")
     implementation("com.jetbrains.intellij.platform:uast:241.15989.155")
-    implementation("org.jetbrains.kotlin:kotlin-compiler:1.9.22")
+    implementation("org.jetbrains.kotlin:kotlin-compiler:1.9.23")
 
     // Test dependencies
     testImplementation(kotlin("test"))
